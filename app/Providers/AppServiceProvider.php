@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Providers;
+namespace LaraDev\Providers;
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +14,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        //Tamanho maximo para uma String padrão UTF-8mb4
+        Schema::defaultStringLength(191);
     }
 
     /**
