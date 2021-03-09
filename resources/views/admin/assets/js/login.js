@@ -22,7 +22,6 @@ $(function () {
           Quarto tipo de dado de retorno json
         */
         $.post(action, {email: email, password: password}, function(response){
-            console.log(response);
             if(response.message) {
                 ajaxMessage(response.message, 5);
             }

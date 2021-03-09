@@ -37,7 +37,7 @@
                     <input type="password" autocomplete="new-password" name="password_check" placeholder="Informe sua senha"/>
                 </label>
 
-                <button class="gradient gradient-orange radius icon-sign-in">Entrar</button>
+                <button class="gradient gradient-blue radius icon-sign-in">Entrar</button>
             </form>
 
             <footer>

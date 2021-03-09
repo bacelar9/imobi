@@ -44,6 +44,7 @@ mix
     ], 'public/backend/assets/js/libs.js')
 
     .scripts([
+
         'resources/views/admin/assets/js/scripts.js'
     ], 'public/backend/assets/js/scripts.js')
 

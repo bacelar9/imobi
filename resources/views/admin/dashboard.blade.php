@@ -140,3 +140,7 @@
     </section>
 </div>
 @endsection
+
+@section('js')
+
+@endsection
